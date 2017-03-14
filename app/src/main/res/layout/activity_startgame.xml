@@ -10,6 +10,20 @@
         android:layout_height="wrap_content"
         android:hint="Indtast navn på person til druk"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />//456
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addPersonBox" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addPersonBox"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addPersonButton"
+        android:text="tilføj person" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addPersonButton"
+        android:id="@+id/drunkList" />
 
 </RelativeLayout>
