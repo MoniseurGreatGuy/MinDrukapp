@@ -5,4 +5,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.sebastian.mindrukapp.StartgameActivity">
 
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Indtast navn på person til druk"/>
+
 </RelativeLayout>
