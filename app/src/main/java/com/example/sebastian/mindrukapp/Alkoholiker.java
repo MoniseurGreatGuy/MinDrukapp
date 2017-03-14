@@ -16,11 +16,19 @@ public class Alkoholiker {
     public void drik(int sip){
         if((sips+sip) >= 10)
         {
-
+            genstande++;
+            sips = (sips + sips) - 10;
+        }
+        else {
+            sips = sips + sip;
         }
     }
 
     public int getGenstande() {
         return genstande;
+    }
+
+    public String getName() {
+        return name;
     }
 }

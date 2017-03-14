@@ -22,8 +22,15 @@
         android:text="tilføj person" />
     <ListView
         android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/drunkList"
+        android:layout_below="@+id/addPersonButton" />
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/addPersonButton"
-        android:id="@+id/drunkList" />
+        android:layout_below="@+id/drunkList"
+        android:id="@+id/startGameButton"
+        android:layout_centerHorizontal="true"
+        android:text="begynd druk"/>
 
 </RelativeLayout>
