@@ -8,6 +8,8 @@
     <EditText
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:hint="Indtast navn på person til druk"/>
+        android:hint="Indtast navn på person til druk"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />//456
 
 </RelativeLayout>
